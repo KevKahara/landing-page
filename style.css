@@ -1,0 +1,46 @@
+:root {
+
+    /* FONT SIZE */
+    --logo-size: 24px;
+    --logo-color: #F9FAF8;
+
+    --hero-size: 48px;
+    --hero-color: #f9FAF8;
+
+    /* st means secondary text */
+    --hero-st-size: 18px;
+    --hero-st-color: #E5E7EB;
+
+    /* FONT WEIGHT */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --hero-mt-weight: 900;
+
+    /* LINE HEIGHT */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+
+    /* LETTER-SPACING */
+    /* FONT FAMILY */
+    --font-family: 'Roboto', san-serif;
+
+    /* COLORS */
+    --btn-cta-color: #3882F6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+}
+
